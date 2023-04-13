@@ -14,6 +14,21 @@ Its purpose is to replicate the tag in the parent repository to all child sub-mo
 
 ____________
 
+### How to implement helpers *(Only for Mac users)*
+- with ohMyZsh installed. Open the terminal and run the command:
+```
+open ~/.zshrc
+```
+- In the file that you have opened, copy and paste the code blocks *(Tag Module Helper and Fetch Tags Helper)*. [You can find the codes by clicking here](HELPERS_MACOS.md).
+- Save and close the file.
+- Now, in terminal, run:
+```
+exec zsh
+```
+- If ohMyZsh is still enabled, everything is okay
+
+____________
+
 ### How to use
 
 - Open terminal in a git repository
@@ -28,17 +43,3 @@ get_from_tag <tag>
 - See how it works
 
 snapshot_files/tag_modules.mov
-____________
-
-### How to implement helpers *(Only for Mac users)*
-- with ohMyZsh installed. Open the terminal and run the command:
-```
-open ~/.zshrc
-```
-- In the file that you have opened, copy and paste the code blocks *(Tag Module Helper and Fetch Tags Helper)*. [You can find the codes by clicking here](HELPERS_MACOS.md).
-- Save and close the file.
-- Now, in terminal, run:
-```
-exec zsh
-```
-- If ohMyZsh is still enabled, everything is okay
