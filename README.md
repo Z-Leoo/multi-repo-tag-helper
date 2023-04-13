@@ -42,4 +42,8 @@ get_from_tag <tag>
 ```
 - See how it works
 
-snapshot_files/tag_modules.mov
+/snapshot_files/tag_modules.mov
+
+
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](/snapshot_files/tag_modules.mov)
